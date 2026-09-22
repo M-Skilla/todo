@@ -5,7 +5,7 @@ import { AmanaDBClient, type RecordsPage } from '@amanadb/sdk';
 
 const db = new AmanaDBClient({
   baseUrl: 'http://localhost:3001',
-  apiKey: 'amdb_client_355247e44a3b60ee934e677a985113dae71d0090d443f130',
+  apiKey: 'amdb_client_24e8f363abb5fd96cacfbd1ff93f1ba910be05e0f1d2184c',
 });
 
 export async function getTodos(): Promise<Todo[]> {
